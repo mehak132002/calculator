@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #0ff4d2, #4ff9ae, #86fc83, #bbfa52, #f3f30b);
+    color: aqua;
+}
+
+.calculator {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    color: blue;
+}
+
+button {
+    padding: 20px; /* Increased padding for a circular shape */
+    font-size: 18px;
+    border-radius: 50%; /* Border-radius for a circular shape */
+    cursor: pointer;
+}
+
+button.equal {
+    grid-column: span 2; /* Make the equal button span two columns */
+}
