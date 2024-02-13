@@ -35,7 +35,3 @@ button {
     border-radius: 50%; /* Border-radius for a circular shape */
     cursor: pointer;
 }
-
-button.equal {
-    grid-column: span 2; /* Make the equal button span two columns */
-}
